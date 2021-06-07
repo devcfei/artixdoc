@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shortcodes on My New Hugo Site</title>
+    <link>https://devcfei.github.io/artixdoc/docs/shortcodes/</link>
+    <description>Recent content in Shortcodes on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 May 2021 09:55:17 +0800</lastBuildDate><atom:link href="https://devcfei.github.io/artixdoc/docs/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notice</title>
+      <link>https://devcfei.github.io/artixdoc/docs/shortcodes/notice/</link>
+      <pubDate>Sun, 30 May 2021 10:10:42 +0800</pubDate>
+      
+      <guid>https://devcfei.github.io/artixdoc/docs/shortcodes/notice/</guid>
+      <description>Notice summaryThe notice shortcode highlights a text with a solid vertical line in front of your text. You may add a label to your notice which will be displayed on top of it.
+ Usage {{%notice $color $label %}}Lorem ipsum{{%/notice%}}    Parameter Description     $color type/color of notice   $label label displayed on top (default to the type)    Examples  Lorem ipsum dolor sit amet, consectetur.</description>
+    </item>
+    
+    <item>
+      <title>Tab</title>
+      <link>https://devcfei.github.io/artixdoc/docs/shortcodes/tab/</link>
+      <pubDate>Sun, 30 May 2021 09:55:31 +0800</pubDate>
+      
+      <guid>https://devcfei.github.io/artixdoc/docs/shortcodes/tab/</guid>
+      <description>Tab Tabs let you organize content by context with multiple tab, for example HelloWorld instructions for each language.
+PHP This is how we do a Hello world with php
+&amp;lt;?php Print &amp;#34;Hello, World!&amp;#34;; ?&amp;gt;php runtime needed to run
+ Golang This is how we do a Hello world with go
+package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;hello world&amp;#34;) }	go needed to compile
+ Java This is how we do a Hello world with java</description>
+    </item>
+    
+    <item>
+      <title>Alert</title>
+      <link>https://devcfei.github.io/artixdoc/docs/shortcodes/alert/</link>
+      <pubDate>Sun, 30 May 2021 10:19:48 +0800</pubDate>
+      
+      <guid>https://devcfei.github.io/artixdoc/docs/shortcodes/alert/</guid>
+      <description>Alert The alert shortcode allow you to highlight information in your page. They create a colored box surrounding your text, like this:
+This is an alert ! Usage    Parameter Default Description     theme info primary, success, info, warning, danger, dark, light, secondary    Tips : setting only the theme as argument works too : {{%alert warning%}} instead of {{%alert theme=&amp;quot;warning&amp;quot;%}} Basic examples {{% alert primary %}}**this** is a primary{{% /alert %}} {{% alert theme=&amp;#34;info&amp;#34; %}}**this** is a text{{% /alert %}} {{% alert theme=&amp;#34;success&amp;#34; %}}**Yeahhh !</description>
+    </item>
+    
+    <item>
+      <title>Column</title>
+      <link>https://devcfei.github.io/artixdoc/docs/shortcodes/column/</link>
+      <pubDate>Sun, 30 May 2021 10:37:27 +0800</pubDate>
+      
+      <guid>https://devcfei.github.io/artixdoc/docs/shortcodes/column/</guid>
+      <description>Column the {{&amp;lt;column&amp;gt;}} shortcode display content side by side
+Left Content Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Mid Content Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Right Content Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non   Usage {{&amp;lt; columns &amp;gt;}} ## 1st column Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Panel</title>
+      <link>https://devcfei.github.io/artixdoc/docs/shortcodes/panel/</link>
+      <pubDate>Sun, 30 May 2021 10:51:57 +0800</pubDate>
+      
+      <guid>https://devcfei.github.io/artixdoc/docs/shortcodes/panel/</guid>
+      <description>Panel The panel shortcodeAllow you to highlight information or put it in a box. They create a colored box surrounding your text
+ Usage    Parameter Default Description     header none The title of the panel. If specified, this title will be displayed in its own header row.   footer none the footer of the panel. If specified, this text will be displayed in its own row   theme primary default, primary, info, success, warning, danger    Basic example By default :</description>
+    </item>
+    
+    <item>
+      <title>Icon</title>
+      <link>https://devcfei.github.io/artixdoc/docs/shortcodes/icon/</link>
+      <pubDate>Sun, 30 May 2021 10:56:58 +0800</pubDate>
+      
+      <guid>https://devcfei.github.io/artixdoc/docs/shortcodes/icon/</guid>
+      <description>Icon Display one of the 2 298 icons like   
+It uses :
+ font-awesome 5 free icons library .more info here  This icon shortcode will display an icon in your page.
+Usage    Parameter Default Description     name required name of icon (see bellow)   size none size of icon, medium, xx-small, x-small, small, large, x-large, xx-large, 11px, 2em, 20%&amp;hellip;.   style fas use fas for solid or fab for brands see here    Tips : setting only the name as argument works too : {{&amp;lt;icon fa-film&amp;gt;}}` instead of `{{&amp;lt;icon name=&amp;quot;fa-film&amp;quot;&amp;gt;}}</description>
+    </item>
+    
+  </channel>
+</rss>

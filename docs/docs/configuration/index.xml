@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on My New Hugo Site</title>
+    <link>https://devcfei.github.io/artixdoc/docs/configuration/</link>
+    <description>Recent content in Configuration on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 May 2021 09:26:55 +0800</lastBuildDate><atom:link href="https://devcfei.github.io/artixdoc/docs/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Site Basic</title>
+      <link>https://devcfei.github.io/artixdoc/docs/configuration/site-basic/</link>
+      <pubDate>Thu, 27 May 2021 09:01:20 +0800</pubDate>
+      
+      <guid>https://devcfei.github.io/artixdoc/docs/configuration/site-basic/</guid>
+      <description>Site basic configuration  Logo, brand and sub-brand Multiple level menu Search Legal infomation Code highlight Table of contents  Logo, brand and sub-brand The logo should be configured by replace the static/images/favicon.png. The brand and sub-branded can be configured by the config.toml. The sub-brand is optional.
+Example
+[params] brand = &amp;#34;Artix&amp;#34; # Brand of Site subbrand = &amp;#34;Docs&amp;#34; # Sub-Brand of Site, optional Multiple level menu The multiple level menu should be configured by the global site setting in config.</description>
+    </item>
+    
+    <item>
+      <title>Page</title>
+      <link>https://devcfei.github.io/artixdoc/docs/configuration/page/</link>
+      <pubDate>Thu, 27 May 2021 10:11:34 +0800</pubDate>
+      
+      <guid>https://devcfei.github.io/artixdoc/docs/configuration/page/</guid>
+      <description>Page configuration Page can be configurated by Front Matter which is a setting set by YAML or TOML
+ Page layout Markdown extention Single page  Three colums layout page By default the page is a three colums page, the main content is always show. The navigator, table of contents, and the breadcrumb bar are configurable.
+Example
+--- title: &amp;#34;Page&amp;#34; # Used by left navigation and a part of title of the window date: 2021-05-27T10:11:34+08:00 #draft: true # false to take part for build, hugo default supported layouts: - nav  # Enable left navigation  - toc  # Enable Right navigation  - breadcrumb  # Enable Breadcrumb navigation  mdext: - mermaid  # For a page need render Mermaid - wavedrom  # For a page need render WaveDrom - katex  # For a page need render KaTeX --- Single page Single page is a raw page without nav, toc and breadcrumb, usually the home page is a single page, to enable a single page, set the layouttype to single.</description>
+    </item>
+    
+    <item>
+      <title>Left Navigator</title>
+      <link>https://devcfei.github.io/artixdoc/docs/configuration/left-nav/</link>
+      <pubDate>Thu, 27 May 2021 21:40:09 +0800</pubDate>
+      
+      <guid>https://devcfei.github.io/artixdoc/docs/configuration/left-nav/</guid>
+      <description>Navigator on the left Enable the Navigator layouts: - nav  # Enable Left Navigator  alwaysNav in config.toml enable all the Breadcrumb even nav is not set in layouts
+[params] alwaysNav = true # always have navigator for a page Exclude the folder The nav_exclusion list in config.toml helps to hide the folders in Navigator
+# path name excluded from documentation navigator nav_exclusion = [ &amp;#34;articles&amp;#34;, ] Customize the Navigator To customize the Navigator, change the default setting of ul, li in main-nav in static/css/style.</description>
+    </item>
+    
+    <item>
+      <title>Right TOC</title>
+      <link>https://devcfei.github.io/artixdoc/docs/configuration/right-toc/</link>
+      <pubDate>Thu, 27 May 2021 21:40:51 +0800</pubDate>
+      
+      <guid>https://devcfei.github.io/artixdoc/docs/configuration/right-toc/</guid>
+      <description>Table of content in the right side Enable the TOC To enable the TOC, the toc should be definded in layouts
+layouts: - toc  # Enable left navigation  alwaysTOC in config.toml enable all the TOC even toc is not set in layouts
+[params] alwaysTOC = true # always have TOC for a page Setting of the TOC TOC is an inbox feature in Hugo, the config.toml example
+[markup.tableOfContents] endLevel = 3 # levels to show, 3 by default ordered = false # order enabled, false by default startLevel = 1 # start level, 2 by default Customize the TOC To customize the TOC, change the default setting of table, tr, th, td in static/css/style.</description>
+    </item>
+    
+    <item>
+      <title>Breadcrumb</title>
+      <link>https://devcfei.github.io/artixdoc/docs/configuration/breadcrumb/</link>
+      <pubDate>Thu, 27 May 2021 21:41:01 +0800</pubDate>
+      
+      <guid>https://devcfei.github.io/artixdoc/docs/configuration/breadcrumb/</guid>
+      <description>Breadcrumb on the top of the article Enable the Breadcrumb layouts: - breadcrumb  # Enable Breadcrumb  alwaysBreadcrumb in config.toml enable all the Breadcrumb even breadcrumb is not set in layouts
+[params] alwaysBreadcrumb = true # always have TOC for a page Customize the Breadcrumb To customize the Breadcrumb, change the default setting of ul, li in nav-breadcrumb in static/css/style.css
+.nav-breadcrumb ul{ padding: 0px 0px; margin-bottom: 20px; list-style: none; background-color: #fafafa; } .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,4 @@
+[submodule "hugo-theme-artix"]
+	path = hugo-theme-artix
+	url = https://github.com/devcfei/hugo-theme-artix.git
+	branch = dev

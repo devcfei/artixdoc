@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style type="text/css">
+
+        body{
+            background-color: rgb(101, 83, 143);
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        header{
+            background-color: bisque;
+        }
+
+        main{
+            background-color: rgb(196, 255, 219);
+            min-height: 100%;
+        }
+
+        footer{
+             
+            height: 100px; 
+            width: 100%; 
+            text-align: center; 
+            line-height: 100px; 
+            color: #ABA498; 
+            background: #fafafa; 
+            border-top:1px solid #E7E7E7;
+        }
+
+        .container{
+            max-width: 100%;
+            padding: 0 10%;
+            margin: 0 auto;
+            display: flex;
+            position: relative;
+            min-height:100%;
+        }
+        
+
+        .brand-logo{
+            width: 48px;
+            height: 48px;
+        }
+
+        .brand-title{
+            letter-spacing: 2px;
+            justify-content: center;
+            font-size: x-large;
+        }
+
+        .brand-subtitle{
+            font-size: large;
+            justify-content: center;
+        }
+
+
+         
+        .main-nav{
+            width: 20%;
+            border-right: 1px dashed #000;
+            background-color: coral;
+
+        }
+
+        .main-article{
+            width: 60%;
+            background-color: rgb(106, 141, 151);
+            word-wrap: break-word;  
+        }
+
+        .main-toc{
+            border-left: 1px dashed #000;
+            width: 20%;
+            background-color: rgb(73, 206, 184);
+
+        }
+
+
+        @media (max-width: 716px){
+
+            .container{
+                width: 100%;
+                padding: 0;
+            }
+
+            .main-nav{
+                width: 0px;
+                border:none;
+                display: none;
+            }
+
+            .main-article{
+                width: 100%;
+                background-color: rgb(106, 141, 151);
+                word-wrap: break-word;  
+            }
+
+            .main-toc{
+                width: 0px;
+                border:none;
+                display: none;
+            }
+        }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+
+     
+            <div class="brand-logo">
+                <img class="brand-logo" src="/artixdoc/images/favicon.png"/>
+            </div>
+
+            <div class="brand-title">
+                Brand
+            </div>
+            |
+            <div class="brand-subtitle">
+                Sub
+            </div>
+        </div>
+
+ 
+
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <div class="main-nav">
+                <h1>Nav</h1>
+                <ul>
+                    <li>link</li>
+                    <li>link</li>
+                    <li>link</li>
+                    <li>link</li>
+                    <li>link</li>
+                    <li>link</li>
+                </ul>
+            </div>
+            <div class="main-article">
+                <h1>Article</h1>
+
+                
+
+                
+                <p></p>
+            </div>
+            <div class="main-toc">
+                <h1>TOC</h1>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <h1>footer</h1>        
+        </div>
+
+    </footer>
+</body>
+
+</html>
